@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #f3e6d8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 22px;
+  color: #5f574e;
+}
+
+.paragraph{
+  margin-left: 34px;
+}
+
+span{
+  font-weight: bolder;
+  color: #302d2c;
+}
+
+h1,h3,h4{
+  font-family: "Young serif", serif;
+  color: #854632;
+}
+
+.container{
+  background-color: #ffff;
+  display: grid;
+  max-width: 100vh;
+  height: auto;
+  justify-self: center;
+  border-radius: 20px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.recipe-img{
+  width: 670px;
+  justify-self: center;
+  margin-top: 36px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.section-title{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 32px;
+  font-size: 41px;
+  font-weight: 100;
+  color: #302d2c;
+}
+
+.preparation-time{
+  display: grid;
+  background-color: #fff5fa;
+  width: 670px;
+  justify-self: center;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.preparation-title{
+  font-size: 1.275;
+  font-weight: 600;
+  color: #7b284f;
+  margin-left: 26px;
+  margin-top: 25px;
+}
+
+.preparation-list{
+  margin-left: 55px;
+}
+
+[data-cell="nutritional-value"]{
+  color: #854632;
+  font-weight: 600;
+}
+
+li{
+  padding-left: 1rem;
+}
+
+li::marker{
+  color: #7b284f;
+  font-weight: 600;
+}
+
+.ingredients{
+  display: block;
+  margin-left: 34px;
+  line-height: 28px;
+  margin-top: 18px;
+}
+
+.ingredients-title{
+  font-weight:  500;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+.ingredients-list{
+  margin-left: 30px;
+}
+
+.instructions{
+  display: block;
+  margin-left: 34px;
+  line-height: 23px;
+  margin-top: 25px;
+}
+
+.instructions-title{
+  font-weight:  500;
+  font-size: x-large;
+  margin-bottom: 18px;
+}
+
+.instructions-list{
+  margin-left: 30px;
+}
+
+.nutritional-value{
+  display: block;
+  margin-left: 34px;
+  line-height: 23px;
+  margin-top: 25px;
+}
+
+.nutritional-title{
+  font-weight:  500;
+  font-size: x-large;
+  margin-bottom: 18px;
+}
+
+hr{
+  outline: none;
+  border: none;
+  height: 1px;
+  background-color: #5f574e;
+  margin-top: 2rem;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr );
+  padding: 1rem;
+  border-bottom: 1px solid #5f574e;
+}
+
+                                                            
